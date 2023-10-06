@@ -24,7 +24,7 @@ function NavBar() {
     });
   
     return (
-        <div className="sticky text-white top-0 bg-transparent p-5 h-30 shadow-lg shadow-black-500 ">
+        <div className="sticky text-white top-0 bg-transparent transition-all duration-300 p-5 h-30 shadow-lg shadow-black-500 ">
             <div className="">
                 <h1 className="text-5xl">LOGO</h1>
             </div>
