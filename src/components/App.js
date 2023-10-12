@@ -1,19 +1,18 @@
-import Banner from './pages/Banner';
-import NavBar from './menu/NavBar';
-import Service from './services/Services';
-import About from './about/About';
-import Pro from './Professional/Pro';
-import Footer from './Footer/Footer';
+import {Routes, Route } from "react-router-dom";
+import Accueil from './pages/Accueil/Accueil';
+import Emplacement from './pages/emplacement/Emplacement';
+import SignUp from "./accounts/SignUp";
+import SignIn from "./accounts/SignIn";
 
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <Banner />
-      <Service/>
-      <About/>
-      <Pro/>
-      <Footer/>
+    <div> 
+      <Routes>
+        <Route path="/" element={<Accueil/>} />
+        <Route path="/emplacement" element={<Emplacement/>} />
+        <Route path="/signup" element={<SignUp/>} />
+        <Route path="/signin" element={<SignIn/>} />
+      </Routes>
     </div>
   )
 }
