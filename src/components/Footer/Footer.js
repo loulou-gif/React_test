@@ -5,7 +5,7 @@ function Footer() {
         <div key={index} className="flex justify-center items-center m-10">
             <div className="text-white w-80  p-4">
                 <div>
-                    <h1 className="text-center underline font-bold">Contacts</h1>
+                    <h1 className="ml-20 mt-3 underline font-bold">Contacts</h1>
                     <p className="ml-20 mt-3"><span className="underline font-bold">Mail: </span>{contact.mail} </p>
                     <p className="ml-20 mt-3"><span className="underline font-bold">Téléphone: </span>{contact.tel}</p>
                     <p className="ml-20 mt-3"><span className="underline font-bold">Localisation: </span>{contact.lieu}</p>

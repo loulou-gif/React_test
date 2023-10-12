@@ -26,14 +26,15 @@ function NavBar() {
     return (
         <div className="sticky text-white top-0 bg-transparent transition-all duration-300 p-5 h-30 shadow-lg shadow-black-500 ">
             <div className="">
-                <h1 className="text-5xl">LOGO</h1>
+                <h1 className="text-5xl ml-10 mt-3">LOGO</h1>
             </div>
             <nav className="navbar navbar-expand-lg navbar-light p-lg-0 grid justify-items-end">
                 <div className="navbar-nav text-2xl h-10 flex space-x-2.5 > * + *">
-                    <span>Emplacement </span>
-                    <span>Service </span>
-                    <span>S'inscrire </span>
-                    <span>Connexion </span>
+                    <div className="pr-10 hover:underline">Accueil</div>
+                    <div className="pr-10 hover:underline">Emplacement </div>
+                    <div className="pr-10 hover:underline">Service </div>
+                    <div className="pr-10 hover:underline">S'inscrire </div>
+                    <div className="pr-10 hover:underline">Connexion </div>
                 </div>
             </nav>
             
