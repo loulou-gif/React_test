@@ -5,10 +5,10 @@ function SignIn() {
     return (
         <div className='form'>
             
-            <form method = "#_" className="container g-3 needs-validation text-center mt-5 rounded">
+            <form method = "post" className="container g-3 needs-validation text-center mt-5 rounded">
                 <div className='Element'>
-                    <div className='content mt-5 border rounded'>
-                        <h1 className='title texte-center white'>Inscription</h1>
+                    <div className='content mt-5 border rounded-xl'>
+                        <h1 className='title texte-center text-white'>Inscription</h1>
                         <div className='row rounded'>
                             <div className='col-md-12'>
                                 <div className='mb-3'>

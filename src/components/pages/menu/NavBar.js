@@ -27,16 +27,16 @@ function NavBar() {
   
     return (
         <div className="sticky text-white top-0 bg-transparent transition-all duration-300 p-5 h-30 shadow-lg shadow-black-500 ">
-            <div className="">
-                <h1 className="text-5xl ml-10 mt-3">LOGO</h1>
+            <div className="grid justify-items-end">
+                <h1 className="text-5xl ml-10">LOGO</h1>
             </div>
-            <nav className="navbar navbar-expand-lg navbar-light p-lg-0 grid justify-items-end">
-                <div className="navbar-nav text-2xl h-10 flex space-x-2.5 > * + *">
-                    <Link to="/" className="pr-10 text-white no-underline hover:underline">Accueil</Link>
+            <nav className="navbar navbar-expand-lg navbar-light p-lg-0 ">
+                <div className="navbar-nav  text-2xl h-10 flex space-x-2.5">
+                    <Link to="/" className="pr-10  text-white no-underline hover:underline">Accueil</Link>
                     <Link to="/emplacement" className="pr-10 no-underline text-white hover:underline">Emplacement </Link >
                     <div className="pr-10 no-underline text-white hover:underline">Service </div>
                     <Link to="/signin" className="pr-10 no-underline text-white hover:underline">S'inscrire </Link >
-                    <Link to="/connexion" className="pr-10 no-underline text-white hover:underline">Connexion </Link >
+                    <Link to="/signup" className="pr-10 no-underline text-white hover:underline">Connexion </Link >
                 </div>
             </nav>
             

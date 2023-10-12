@@ -7,8 +7,8 @@ function SignUp() {
             
             <form method = "POST" className="container g-3 needs-validation text-center mt-5">
                 <div className='Element'>
-                    <div className='content mt-5 border rounded'>
-                        <h1 className='texte-center'>Connexion</h1>
+                    <div className='content mt-5 border rounded-xl'>
+                        <h1 className='texte-center text-white'>Connexion</h1>
                         <div className='row rounded'>
                             <div className='col-md-12'>
                                 <div className='mb-3'>
@@ -23,7 +23,7 @@ function SignUp() {
                             </div>  
                         </div>
             
-                        <button className="btn btn-primary"> ENREGISTRER</button>
+                        <button className="bouton"> ENREGISTRER</button>
                     </div>
                 </div>
             </form>
