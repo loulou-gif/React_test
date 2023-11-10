@@ -26,21 +26,21 @@ function NavBar() {
     });
   
     return (
-        <div className="sticky text-white top-0 bg-transparent transition-all duration-300 p-5 h-30 shadow-lg shadow-black-500 ">
-            <div className="grid justify-items-end">
-                <h1 className="text-5xl ml-10">LOGO</h1>
-            </div>
-            <nav className="navbar navbar-expand-lg navbar-light p-lg-0 ">
-                <div className="navbar-nav  text-2xl h-10 flex space-x-2.5">
-                    <Link to="/" className="pr-10  text-white no-underline hover:underline">Accueil</Link>
-                    <Link to="/emplacement" className="pr-10 no-underline text-white hover:underline">Emplacement </Link >
-                    <div className="pr-10 no-underline text-white hover:underline">Service </div>
-                    <Link to="/signin" className="pr-10 no-underline text-white hover:underline">S'inscrire </Link >
-                    <Link to="/signup" className="pr-10 no-underline text-white hover:underline">Connexion </Link >
-                </div>
-            </nav>
-            
+        <div className="flex sticky top-0 bg-transparent text-white p-5 h-30 shadow-lg shadow-black-500">
+    <div className="flex items-center justify-between w-full">
+        <div className="ml-4">
+            <h1 className="text-5xl">LOGO</h1>
         </div>
+        <nav className="flex text-3xl">
+            <Link to="/" className="pr-4 text-white no-underline hover:underline">Accueil</Link>
+            <Link to="/#contact" className="pr-4 no-underline text-white hover:underline">Contact</Link>
+            <Link to="/#service" className="pr-4 no-underline text-white hover:underline">Service</Link>
+            <Link to="/signin" className="pr-4 no-underline text-white hover:underline">S'inscrire</Link>
+            <Link to="/signup" className="no-underline text-white hover:underline">Connexion</Link>
+        </nav>
+    </div>
+</div>
+        
     );    
 }
 export default NavBar

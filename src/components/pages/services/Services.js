@@ -9,9 +9,9 @@ function Service() {
     ));
 
     return (
-        <div className="">
+        <div className="" >
             <h1 className="text-center text-5xl text-stone-600 mt-8">Nos Services</h1>
-            <div className=" mt-8 flex justify-center items-center">
+            <div id="service" className=" mt-8 flex justify-center items-center">
                 <div className="grid grid-cols-3 gap-4">
                     {services}
                 </div>

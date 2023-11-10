@@ -2,7 +2,7 @@ import { AboutList } from "./AboutList"
 
 function About() {
     const aPropos = AboutList.map(props =>(
-        <div className="">
+        <div className="" key={props.id}>
             <ul>
                 <li  className="mt-8 mb-8 m-20 text-stone-600" >{props.name}</li>
             </ul>
